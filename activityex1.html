@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <style>
+            
+            .container{
+                display:flex;               
+                color: white;
+                flex-wrap: wrap;
+                align-items: stretch;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+           header{
+           background-color: blue;
+          flex-basis: 100%;
+           }
+           footer{
+            flex-basis: 100%;
+            background-color:purple ;
+           }
+           nav{
+            flex-basis: 7em;
+            background-color: blueviolet;
+           margin-top: 1em;
+           margin-bottom: 1em;
+          padding: 1em;
+          text-align: center;
+           }
+           aside{
+            margin-top: 1em;
+            margin-bottom: 1em;
+            flex-basis: 10em;
+            background-color:darkslateblue;
+            padding:0.5em;
+            text-align: center;
+
+           }
+           main{
+           
+         flex: 1 0 500px;
+            background-color: white;
+            color: black;
+           }
+           .media{
+           
+            display:flex;
+           }
+           .media-image{
+
+            margin: 1em;
+           }
+          
+           img{
+          
+                    height: 50px;
+            width:50px;
+           }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Site Name</h1>
+            </header>
+            <nav>
+                <a href="#" >Link1</a> <br> <br>
+               <a href="#" >Link2</a> <br> <br>               
+                <a href="#" >Link3</a> <br> <br>
+               <a href="#" >Link4</a> <br>  <br>
+               
+               
+            </nav>
+            <main>
+                <section class="media">
+                    <div class="media-image">
+                        <img src="images/06010-medium.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h3>The British Museum</h3>
+                        <p>The British. Museum was built on 1850. It is located in United Kingdom surrounded by all greeneries around it.</p>
+                            <p>It is one of the top tourist spots in the world.</p> 
+                            <p>It contains over 8 million works.</p>
+                            <br>
+                            <p>The picture shows the redeveloped great gourt surrounding the original Reading room</p>
+                    </div>
+                </section>
+            </main>
+            
+            <aside>
+                <h3>See Also</h3>
+                <section class="browse container">
+                    <div>
+                        <img src="images/05030.jpeg">
+                        <img src="images/06020.jpg">
+                        <img src="images/13030.jpg">
+                        <img src="images/07020.jpg">
+                        <img src="images/05030.jpeg">
+                        <img src="images/06020.jpg" >
+                        <img src="images/13030.jpg">
+                        <img src="images/07020.jpg">
+                        <img src="images/106020.jpeg">
+                    </div>
+                </section>
+            </aside>
+            <footer>footer</footer>
+        </div>
+    </body>
+</html>
