@@ -1,0 +1,192 @@
+<html>
+    <head>
+
+        <style>
+            .box{
+                width: 200%;
+                margin-left: 50%;
+                margin-right: 50%;
+                border: solid 1pt navy;
+             }
+             .title{
+                width: 80%;
+                margin: 0.5em;
+             }
+             form{
+                background-color: lightgrey;
+                border: solid 1pt black;
+                width: 100%;
+                margin-left: 25%;
+                margin-right: 25%;
+                
+             }
+            .shadow{
+                background-color:lightslategray;
+                width: 180%;
+               
+               
+              margin-top: 1em;
+              margin-bottom: 1em;
+            }
+            legend{
+                text-align: center;
+                font-weight: bolder;
+                background-color:lightslategray;
+            }
+            table{
+                margin: 5%;
+            }
+            legend{
+               margin-left: 2em;
+               margin-right: 2em;
+            }
+           .x{
+           align-items: center;
+           margin-left: 40%;
+           margin-top: 0.5em;
+           margin-bottom: 0.5em;
+          display: inline-block;
+           }
+           .copy{
+           margin-left: 1em;
+           margin-right: 1em;
+           }
+           .y{
+           
+           
+            margin-left: 1em;
+
+           }
+           .C{
+            margin-bottom: 1em;
+           }
+        </style>
+    </head>
+    <body>
+       
+    <form>
+        <legend>Photo Details</legend>
+    <table>
+        
+    <tr >
+        <td colspan="2">
+            <div class="title">
+                <label>Title</label><br>
+                <input type="text" size="50"><br>
+                <label>Description</label><br>
+                <textArea size="100"></textArea><br>
+            </div>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="place">
+                <div>
+                    <label>Continent</label><br>
+                    <select name="Continent">
+                        <option>Choose Continent</option>
+                        <option>Asia</option>
+                        <option>Africa</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                        <option>Antarctica</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Country</label><br>
+                    <select name="Country">
+                        <option>Choose Country</option>
+                        <option>Argentina</option>
+                        <option>Kenya</option>
+                        <option>India</option>
+                        <option>Brazil</option>
+                        <option>Ghana</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>City</label><br>
+                    <select name="City">
+                        <option>Choose City</option>
+                        <option>Toronto</option>
+                        <option>Vancouver</option>
+                        <option>Quebec</option>
+                        <option>New Delhi</option>
+                        <option>Mumbai</option>
+                    </select>
+                </div>
+            </div>
+
+        </td>
+        <td>
+            <div class="C">
+                <div class="box" content-fit>
+                    <div class="Copy">
+                        <label>Copyright</label><br>
+                        <input type="radio" name="where" value="1">All rights reserved<br>
+                        <input type="radio" name="where" value="2" checked>Creative Commons
+                    </div>
+                </div>
+                <br>
+                <div class="box" content-fit>
+                    <div class="Copy">
+                        <label>Creative Commons Types</label><br>
+                        <input type="checkbox" name="Types" value="1">Attribution<br>
+                        <input type="checkbox" name="Types" value="2">Noncommercial<br>
+                        <input type="checkbox" name="Types" value="3">Non Derivative Works<br>
+                        <input type="checkbox" name="Types" value="4">Share Alike
+                    </div>
+                </div>   
+            </div>
+        </td>
+
+        <tr>
+
+            
+            <td colspan="2">
+                <div class="shadow">
+                    <div class="y">
+                        <label>I accept the software license</label>
+                        <input type="checkbox" name="accept" >
+                    </div>
+                </div>
+            </td>
+        
+        </tr>
+        <tr>
+            
+            <td>
+                <label>Rate this photo:</label><br>
+                <input type="text" name="text"><br><br>
+
+                <label>Color Collection:</label><br>
+                <input type="color" name="color"><br>
+                
+            </td>
+            <td>
+                <div class="box">
+                    <div class="copy">
+                        <label>Date Taken:</label><br>
+                        <input type="date" name="date" value="1"><br><br>
+                        <label>Time Taken:</label><br>
+                        <input type="time" name="time" value="1"><br>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="shadow">
+                    <div class="x">
+                        <input type="submit" style="background-color:blue" color="white" >
+                        <input type="button" value="Clear Form" style="background-color:blue" color="white" >
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tr>
+    </table>
+    </form>
+    </body>
+</html>
